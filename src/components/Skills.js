@@ -3,13 +3,13 @@ import React from 'react';
 import './Skills.css';
 
 const technicalSkills = [
-  { name: 'C', icon: <img src="/pics/pngwing.com.png" alt="C Programming Language Icon" /> },
-  { name: 'C++', icon: <img src="/pics/pngwing.com (2).png" alt="C++ Programming Language Icon" /> },
-  { name: 'Python', icon: <img src="/pics/pngwing.com (1).png" alt="Python Programming Language Icon" /> },
-  { name: 'HTML5', icon: <img src="/pics/pngwing.com (5).png" alt="HTML5 Icon" /> },
-  { name: 'CSS3', icon: <img src="/pics/pngwing.com (6).png" alt="CSS3 Icon" /> },
-  { name: 'MySQL', icon: <img src="/pics/pngwing.com (4).png" alt="MySQL Icon" /> },
-  { name: 'DSA', icon: <img src="/pics/dsa-by-sandeep-jain.png" alt="Data Structures and Algorithms Icon" /> },
+  { name: 'C', icon: <img src={`${process.env.PUBLIC_URL}/pics/pngwing.com.png`} alt="C Programming Language Icon" /> },
+  { name: 'C++', icon: <img src={`${process.env.PUBLIC_URL}/pics/pngwing.com (2).png`} alt="C++ Programming Language Icon" /> },
+  { name: 'Python', icon: <img src={`${process.env.PUBLIC_URL}/pics/pngwing.com (1).png`} alt="Python Programming Language Icon" /> },
+  { name: 'HTML5', icon: <img src={`${process.env.PUBLIC_URL}/pics/pngwing.com (5).png`} alt="HTML5 Icon" /> },
+  { name: 'CSS3', icon: <img src={`${process.env.PUBLIC_URL}/pics/pngwing.com (6).png`} alt="CSS3 Icon" /> },
+  { name: 'MySQL', icon: <img src={`${process.env.PUBLIC_URL}/pics/pngwing.com (4).png`} alt="MySQL Icon" /> },
+  { name: 'DSA', icon: <img src={`${process.env.PUBLIC_URL}/pics/dsa-by-sandeep-jain.png`} alt="Data Structures and Algorithms Icon" /> },
 ];
 
 const softSkills = [

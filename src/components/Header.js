@@ -8,33 +8,23 @@ const Header = () => {
       <div className="box">
         <nav className="navbar">
           <ul className="navbar-menu">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
       <div className="header-content">
         <div className="image-section">
-          <img src="./pics/IMG_20240331_153356.jpg" alt="Himanshu Kushwaha" />
+          <img src={`${process.env.PUBLIC_URL}/pics/IMG_20240331_153356.jpg`} alt="Himanshu Kushwaha" />
         </div>
         <div className="name-section">
           <div className="name-container">
             <h1 className="first-name">Himanshu</h1>
             <h1 className="last-name">Kushwaha</h1>
-            <h2 className="profession-title">Software Developer</h2> {/* New line added here */}
+            <h2 className="profession-title">Software Developer</h2>
           </div>
         </div>
       </div>
